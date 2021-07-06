@@ -4,4 +4,15 @@
 
 .content{
     background-color: red;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+html{
+    height: 100%;
 }
