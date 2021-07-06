@@ -16,11 +16,7 @@
     margin: 5px;
 }
 
-.host-left-right{
-    background-color: yellow;
-    height: 100%;
-    display: flex;
-}
+
 
 .host-top-down{
     display: flex;
@@ -52,6 +48,13 @@
     margin: 10px;
 }
 
+.host-left-right{
+    background-color: yellow;
+    height: 100%;
+    display: flex;
+    overflow-y: auto;
+}
+
 .app-root{
     flex-grow: 1;
     display: flex;
@@ -67,5 +70,5 @@ body{
 
 html{
     display: flex;
-    height: 99%;
+    height: 100%;
 }
