@@ -9,16 +9,40 @@
     margin: 5px;
 }
 
-.leftbar{
+.left-bar{
     background-color: mediumpurple;
     width: 25%;
     margin: 5px;
 }
 
-.host{
+.host-left-right{
     background-color: yellow;
     height: 100%;
     display: flex;
+}
+
+.host-top-down{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tab-bar{
+    background-color: cornflowerblue;
+    height: 50px;
+    margin: 5px;
+    display: flex;
+}
+
+.tab{
+    flex-grow: 1;
+    margin: 3px;
+    border: solid 2px royalblue;
+}
+
+.status-bar{
+    background-color: cornflowerblue;
+    margin: 5px;
 }
 
 body{
