@@ -3,12 +3,7 @@
     margin: 5px;
 }
 
-.content{
-    background-color: red;
-    flex-grow: 1;
-    margin: 5px;
-    overflow: auto;
-}
+
 
 .left-bar{
     background-color: mediumpurple;
@@ -18,11 +13,7 @@
 
 
 
-.host-top-down{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
+
 
 .tab-bar{
     background-color: cornflowerblue;
@@ -48,9 +39,22 @@
     margin: 10px;
 }
 
+.content{
+    background-color: red;
+    flex-grow: 1;
+    margin: 5px;
+    overflow: auto;
+}
+
+.host-top-down{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
 .host-left-right{
     background-color: yellow;
-    height: 100%;
+    flex-grow: 1;
     display: flex;
     overflow-y: auto;
 }
