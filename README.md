@@ -3,7 +3,7 @@ CSS KOANS KATA - FLEX
 
 The objective of these exercices is to become more confortable with css flex manipulation.
 
-![graphical instructions](./css-koans-training.svg)
+![graphical instructions](./css-koans-training.png)
 
 1. *Start*: add a css file that make header green and content red.
 2. *Flex:* use diplay flex to make content fill the entire page.
