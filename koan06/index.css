@@ -1,0 +1,83 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.header {
+    background-color: darkolivegreen;
+    margin: 10px 10px 0px 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.level0Content {
+    margin: 10px 10px 0 10px;
+    display: flex;
+    flex-flow: row;
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.leftSideMenu {
+    background-color: darkviolet;
+    padding: 5px;
+    width: 25%;
+    margin-right: 10px;
+    text-align: center;
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+}
+
+.level1Content {
+    display: flex;
+    flex: auto;
+    flex-flow: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.topTabs {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid black;
+    line-height: 60px;
+    background-color: cadetblue;
+    margin-bottom: 10px;
+}
+
+.tab {
+    flex-grow: 1;
+    text-align: center;
+    border-right: 1px solid black;
+    width: 200px;
+}
+
+.level2Content {
+    text-align: center;
+    background-color: palevioletred;
+    margin-bottom: 10px;
+    flex-grow: 1;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.item {
+    border: 1px solid black;
+    margin: 5px;
+    line-height: 50px;
+    background-color: darkorange;
+}
+
+.statusBar {
+    text-align: center;
+    line-height: 36px;
+    background-color: cadetblue;
+}
