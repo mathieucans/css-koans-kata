@@ -1,0 +1,37 @@
+.header {
+    background-color: green;
+}
+
+.left {
+    background: deepskyblue;
+    padding: 10px;
+}
+
+.wrapper {
+    display: flex;
+    background: darkred;
+    padding: 5px;
+    flex: 1;
+    min-height: 0;
+}
+
+.main {
+    background: white;
+    flex: 1;
+    overflow: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background: antiquewhite;
+    flex: 1;
+    border: black solid 1px;
+    min-width: 0;
+}
+
+html {
+    height: 100%;
+    display: flex;
+}
